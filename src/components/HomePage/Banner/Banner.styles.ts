@@ -1,5 +1,5 @@
 import { createStyles, rem } from '@mantine/core';
-import banner from './banner.webp';
+// import banner from './banner.webp';
 
 export default createStyles((theme) => ({
   wrapper: {
@@ -47,7 +47,7 @@ export default createStyles((theme) => ({
     minHeight: rem(700),
     width: rem(800),
     flex: 1,
-    backgroundImage: `url(${banner.src})`,
+    // backgroundImage: `url(${banner.src})`,
     backgroundSize: 'auto 100%',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'right',
